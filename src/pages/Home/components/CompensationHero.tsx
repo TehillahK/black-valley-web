@@ -1,6 +1,6 @@
 const CompensationHero = () => {
   return (
-    <div className="hero min-h-screen  bg-info-content">
+    <div id="compensation" className="hero min-h-screen  bg-info-content">
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Compensation</h1>
@@ -9,7 +9,9 @@ const CompensationHero = () => {
             comics only viewable via subscription will be shared between the
             platform and the publisher of the comic.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <a href="#my-modal-2" className="btn btn-primary ">
+            Contact us
+          </a>
         </div>
       </div>
     </div>

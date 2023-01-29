@@ -1,5 +1,5 @@
 import iphone from "../assets/iphone.png";
-
+import {Link} from "react-scroll"
 const IntroHero = () => {
   return (
     <div className="hero min-h-screen bg-primary-focus text-white">
@@ -19,9 +19,19 @@ const IntroHero = () => {
             comics rank higher in search engine results, making it easier for
             potential readers to discover your work. If you're an independent
             comic book author or publisher looking to expand your reach, Black
-            Valley Comics is a great option to consider.
+            Valley Comics is a great option to consider.Thank you for your
+            interest in BlackValley Comics . This is a product of Newgate
+            Solutions . Contact us if you want your comic published on our App
+            ,just press the contact button to reach out..
           </p>
-          <button className="btn btn-primary">See Comic Requirements</button>
+          <div className="flex flex-row">
+            <Link to="req" spy={true} smooth={true} offset={0} duration={500} className="btn text-white mr-4">
+              See Comic Requirements
+            </Link>
+            <a href="#my-modal-2" className="btn btn-info ">
+              Contact us
+            </a>
+          </div>
         </div>
       </div>
     </div>

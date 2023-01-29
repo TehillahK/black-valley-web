@@ -1,3 +1,4 @@
+import ContactUs from "../../components/ContactUs";
 import CompensationHero from "./components/CompensationHero";
 import FeaturesHero from "./components/FeaturesHero";
 import Footer from "./components/Footer";
@@ -13,6 +14,7 @@ const HomePage = () => {
       <FeaturesHero />
       <RequirementsHero />
       <CompensationHero />
+      <ContactUs />
       <Footer />
     </div>
   );

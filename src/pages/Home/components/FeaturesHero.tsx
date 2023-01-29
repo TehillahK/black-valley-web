@@ -1,3 +1,4 @@
+import {Link} from "react-scroll"
 const FeaturesHero = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
@@ -10,7 +11,7 @@ const FeaturesHero = () => {
             <li>Release free comics.</li>
             <li>Update users when new release is ready.</li>
           </ol>
-          <button className="btn btn-primary">See Compensation</button>
+          <Link  to="compensation" spy={true} smooth={true} offset={0} duration={500}  className="btn btn-primary">See Compensation</Link>
         </div>
       </div>
     </div>
