@@ -36,7 +36,7 @@ const Header = () => {
         </div>
       </div>
       <div className="navbar-center">
-        <a className="btn btn-ghost normal-case text-xl">BlackValley Comics</a>
+        <a className="btn btn-ghost normal-case text-xl">A bad website</a>
       </div>
       <div className="navbar-end">
         <button className="btn btn-ghost btn-circle">
