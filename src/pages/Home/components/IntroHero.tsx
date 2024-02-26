@@ -10,7 +10,7 @@ const IntroHero = () => {
         />
         <div className="">
           <h1 className="text-5xl font-bold">
-            Introducing Black Valley Comics{" "}
+            DEMO Website
           </h1>
           <p className="py-6">
             
